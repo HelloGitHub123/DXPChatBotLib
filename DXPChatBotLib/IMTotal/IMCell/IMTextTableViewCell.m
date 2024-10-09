@@ -13,7 +13,6 @@
 #import "IMCellDataHelper.h"
 #import "IMViewMoreBottomView.h"
 #import "IMTapMorePushVC.h"
-#import "AppDelegate.h"
 #import "FontManager.h"
 
 @interface IMTextTableViewCell () {

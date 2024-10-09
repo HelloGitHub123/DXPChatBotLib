@@ -14,7 +14,7 @@
 #import <WebKit/WebKit.h>
 #import <DXPToolsLib/HJMBProgressHUD.h>
 #import <DXPToolsLib/HJMBProgressHUD+Category.h>
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 
 @interface IMViewMoreBottomView() <WKNavigationDelegate, WKUIDelegate> {
     CGFloat _viewHeight;

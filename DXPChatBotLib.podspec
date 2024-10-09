@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DXPChatBotLib"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "DXP Chat Bot SDK"
 
   # This description is used to generate tags and improve search results.
@@ -125,20 +125,20 @@ Pod::Spec.new do |spec|
   # spec.libraries = "iconv", "xml2"
 
 
-  pod 'DXPToolsLib'
-  pod 'AFNetworking', '~> 4.0.1'
-  pod 'MJExtension'
-  pod 'YYText'
-  pod 'Masonry'
-  pod 'MJRefresh'
-  pod 'YYCategories'
-  pod 'SDWebImage'
-  pod 'FMDB'
-	pod 'YYModel'
-	pod 'SocketRocket' ,'~> 0.6.0'
-	pod 'CKYPhotoBrowser'
-	pod 'IQKeyboardManager', '~> 6.5.6'
-	pod 'MMPopupView'
+  spec.dependency 'DXPToolsLib'
+  spec.dependency 'AFNetworking', '~> 4.0.1'
+  spec.dependency 'MJExtension'
+  spec.dependency 'YYText'
+  spec.dependency 'Masonry'
+  spec.dependency 'MJRefresh'
+  spec.dependency 'YYCategories'
+  spec.dependency 'SDWebImage'
+  spec.dependency 'FMDB'
+	spec.dependency 'YYModel'
+	spec.dependency 'SocketRocket' ,'~> 0.6.0'
+	spec.dependency 'CKYPhotoBrowser'
+	spec.dependency 'IQKeyboardManager', '~> 6.5.6'
+	spec.dependency 'MMPopupView'
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
