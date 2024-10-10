@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "DXPChatBotLib/**/*.{h,m}, 'DXPChatBotLib/Resources/**/*.{xib,png,jpg,json,css,gif,bundle}'"
+  spec.source_files  = "DXPChatBotLib/**/*.{h,m}, 'DXPChatBotLib/Resources/**/*.{png,css,gif,bundle}'"
   spec.resource_bundles = {
     'DXPChatBotLib' => ['DXPChatBotLib/Resources/*.png']
   }
