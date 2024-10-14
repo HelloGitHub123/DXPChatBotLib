@@ -10,7 +10,7 @@
 #import "UIColor+IM.h"
 #import "NSString+IM.h"
 #import "IMCellDataHelper.h"
-#import "FontManager.h"
+#import <DXPFontManagerLib/FontManager.h>
 
 @interface IMVOIPSubTableViewCell () {
     NSIndexPath *currentIndexPath;

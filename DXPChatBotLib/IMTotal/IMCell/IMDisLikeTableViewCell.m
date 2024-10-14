@@ -18,7 +18,7 @@
 #import <DXPToolsLib/HJMBProgressHUD+Category.h>
 #import <YYModel/YYModel.h>
 #import "IMConfigSingleton.h"
-#import "FontManager.h"
+#import <DXPFontManagerLib/FontManager.h>
 
 @interface IMDisLikeTableViewCell () <UITableViewDataSource, UITableViewDelegate> {
     IMMsgModel *_currentModel;

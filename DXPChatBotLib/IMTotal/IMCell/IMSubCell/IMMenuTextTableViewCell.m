@@ -10,7 +10,7 @@
 #import "UIFont+IM.h"
 #import "UIColor+IM.h"
 #import "NSString+IM.h"
-#import "FontManager.h"
+#import <DXPFontManagerLib/FontManager.h>
 
 @implementation IMMenuTextTableViewCell
 

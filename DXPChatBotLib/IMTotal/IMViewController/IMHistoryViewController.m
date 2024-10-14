@@ -14,7 +14,7 @@
 #import "NSString+IM.h"
 #import <DXPToolsLib/HJMBProgressHUD.h>
 #import <DXPToolsLib/HJMBProgressHUD+Category.h>
-#import "FontManager.h"
+#import <DXPFontManagerLib/FontManager.h>
 
 static NSString *historyCellIdentifier = @"IMHistoryTableViewCelldentifier";
 

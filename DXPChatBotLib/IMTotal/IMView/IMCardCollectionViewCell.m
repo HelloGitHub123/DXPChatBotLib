@@ -15,7 +15,7 @@
 #import <DXPToolsLib/HJMBProgressHUD+Category.h>
 #import "IMHttpRequest.h"
 #import "IMCardModel.h"
-#import "FontManager.h"
+#import <DXPFontManagerLib/FontManager.h>
 
 static NSString *secondCellIdentifier = @"IMSecondCollectionViewCellIdentifier";
 static NSString *questionCellIdentifier = @"IMQuestionTableViewCellIdentifier";

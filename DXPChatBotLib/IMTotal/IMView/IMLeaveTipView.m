@@ -8,7 +8,7 @@
 
 #import "IMLeaveTipView.h"
 #import "NSString+IM.h"
-#import "FontManager.h"
+#import <DXPFontManagerLib/FontManager.h>
 
 @interface IMLeaveTipView ()
 

@@ -9,7 +9,7 @@
 #import "IMSecondCollectionViewCell.h"
 #import "UCCHeader.h"
 #import "NSString+IM.h"
-#import "FontManager.h"
+#import <DXPFontManagerLib/FontManager.h>
 
 @implementation IMSecondCollectionViewCell
 

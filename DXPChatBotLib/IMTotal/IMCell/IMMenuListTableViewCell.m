@@ -14,7 +14,7 @@
 #import "NSString+IM.h"
 #import "IMSatisfyMainInfoModel.h"
 #import "IMSatisfyMenuModel.h"
-#import "FontManager.h"
+#import <DXPFontManagerLib/FontManager.h>
 
 @interface IMMenuListTableViewCell () <UITableViewDataSource, UITableViewDelegate> {
     IMMsgModel *_currentModel;

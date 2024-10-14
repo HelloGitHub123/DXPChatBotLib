@@ -12,7 +12,7 @@
 #import "IMCellDataHelper.h"
 #import "IMSatisfyMainInfoModel.h"
 #import "IMSatisfyMenuModel.h"
-#import "FontManager.h"
+#import <DXPFontManagerLib/FontManager.h>
 
 @implementation IMCellHeightHelper
 

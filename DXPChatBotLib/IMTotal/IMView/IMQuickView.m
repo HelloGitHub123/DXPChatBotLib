@@ -11,7 +11,7 @@
 #import "UCCHeader.h"
 #import "IMQuickCollectionViewCell.h"
 #import "NSString+IM.h"
-#import "FontManager.h"
+#import <DXPFontManagerLib/FontManager.h>
 
 static NSString *quickCellIdentifier = @"IMQuickCollectionViewCellIdentifier";
 

@@ -10,7 +10,7 @@
 #import "UCCHeader.h"
 #import "UIColor+IM.h"
 #import "UIFont+IM.h"
-#import "FontManager.h"
+#import <DXPFontManagerLib/FontManager.h>
 #import "IMConfigSingleton.h"
 
 @interface IMTopView () {

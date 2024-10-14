@@ -8,7 +8,7 @@
 
 #import "UIFont+IM.h"
 #import "UCCHeader.h"
-#import "FontManager.h"
+#import <DXPFontManagerLib/FontManager.h>
 
 @implementation UIFont (IM)
 

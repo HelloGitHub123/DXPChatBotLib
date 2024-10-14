@@ -13,7 +13,7 @@
 #import "IMCellDataHelper.h"
 #import "IMViewMoreBottomView.h"
 #import "IMTapMorePushVC.h"
-#import "FontManager.h"
+#import <DXPFontManagerLib/FontManager.h>
 
 @interface IMTextTableViewCell () {
     IMMsgModel *_currentModel;

@@ -9,7 +9,7 @@
 #import "IMQuestionTableViewCell.h"
 #import "UCCHeader.h"
 #import "NSString+IM.h"
-#import "FontManager.h"
+#import <DXPFontManagerLib/FontManager.h>
 
 @implementation IMQuestionTableViewCell
 

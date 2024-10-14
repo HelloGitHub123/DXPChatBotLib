@@ -11,7 +11,7 @@
 #import "UIColor+IM.h"
 #import "NSString+IM.h"
 #import "IMDisLikeModel.h"
-#import "FontManager.h"
+#import <DXPFontManagerLib/FontManager.h>
 
 @implementation IMDisLikeTextTableViewCell
 

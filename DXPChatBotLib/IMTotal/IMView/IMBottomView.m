@@ -13,7 +13,7 @@
 #import "IMDeviceModelHelper.h"
 #import "NSString+IM.h"
 #import <DXPToolsLib/HJTool.h>
-#import "FontManager.h"
+#import <DXPFontManagerLib/FontManager.h>
 
 @interface IMBottomView () <UITextViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate> {
     CGFloat bottomViewWidth;

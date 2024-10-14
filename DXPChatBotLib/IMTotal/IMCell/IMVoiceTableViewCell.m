@@ -8,7 +8,7 @@
 
 #import "IMVoiceTableViewCell.h"
 #import "UIColor+IM.h"
-#import "FontManager.h"
+#import <DXPFontManagerLib/FontManager.h>
 
 @implementation IMVoiceTableViewCell
 
