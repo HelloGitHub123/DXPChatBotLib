@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DXPChatBotLib"
-  spec.version      = "1.0.8"
+  spec.version      = "1.0.9"
   spec.summary      = "DXP Chat Bot SDK"
 
   # This description is used to generate tags and improve search results.

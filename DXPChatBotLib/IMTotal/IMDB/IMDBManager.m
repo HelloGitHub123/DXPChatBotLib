@@ -13,8 +13,22 @@ static FMDatabaseQueue *dbQueue;
 
 @implementation IMDBManager
 
++ (NSBundle *)getBundleFromClassName:(NSString *)className bundleName:(NSString *)bundleName{
+	NSBundle *bundle = [NSBundle bundleForClass:NSClassFromString(className)];
+	if (!bundle) { bundle = [NSBundle mainBundle]; } // main bundle
+	NSString *path = [bundle pathForResource:bundleName ofType:@"bundle"];
+	NSBundle *result = [NSBundle bundleWithPath:path];
+	if (!result) {
+		result = [NSBundle mainBundle];
+	}
+	return result;
+}
+
 + (void)initCoreBizDBMigrationManagerSetting{
-    NSBundle *CoreBizBundle = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"CoreBizDBMigrationManager" ofType:@"bundle"]];
+	
+	NSBundle *CoreBizBundle = [IMDBManager getBundleFromClassName:@"DXPChatBotLib" bundleName:@"CoreBizDBMigrationManager"];
+	
+//    NSBundle *CoreBizBundle = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"CoreBizDBMigrationManager" ofType:@"bundle"]];
     
     FMDBMigrationManager *manager = [FMDBMigrationManager managerWithDatabaseAtPath:[[[self class]  userFilePath] stringByAppendingPathComponent:T_UCC_DB_NAME]  migrationsBundle:CoreBizBundle];
     
