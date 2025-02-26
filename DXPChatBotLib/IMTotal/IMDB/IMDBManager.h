@@ -7,9 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <FMDB/FMDatabaseQueue.h>
-#import <FMDB/FMDatabase.h>
 
+@class FMDatabaseQueue,FMDatabase;
 #define T_UCC_DB_NAME          @"T_UCC_DB.db"  //数据库名称
 
 NS_ASSUME_NONNULL_BEGIN

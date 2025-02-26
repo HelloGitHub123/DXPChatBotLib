@@ -8,12 +8,11 @@
 
 #import "IMChatDBManager.h"
 #import "IMDBManager.h"
-#import <FMDB/FMResultSet.h>
+#import <fmdb/FMDB.h>
 #import "NSString+IM.h"
 #import "IMSatisfyMenuModel.h"
 #import "IMDisLikeModel.H"
-#import <FMDB/FMDatabaseQueue.h>
-
+#import "FMDatabaseQueue.h"
 @implementation IMChatDBManager
 
 + (BOOL)insertChatDBWithUserId:(NSString*)userId model:(IMMsgModel *)model {

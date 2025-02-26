@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "UCCHeader.h"
 #import "IMSatisfyMainInfoModel.h"
-#import <FMDB/FMResultSet.h>
 
+@class FMResultSet;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface IMMsgModel : NSObject <NSCopying>

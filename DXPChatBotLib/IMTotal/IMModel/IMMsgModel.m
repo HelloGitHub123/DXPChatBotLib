@@ -11,6 +11,8 @@
 #import "IMCellDataHelper.h"
 #import "IMSatisfyMenuModel.h"
 #import "IMDisLikeModel.h"
+#import <fmdb/FMDB.h>
+#import "FMResultSet.h"
 
 @implementation IMMsgModel
 

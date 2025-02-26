@@ -8,6 +8,8 @@
 
 #import "IMDBManager.h"
 #import "FMDBMigrationManager.h"
+#import "FMDatabaseQueue.H"
+#import "FMDatabase.h"
 
 static FMDatabaseQueue *dbQueue;
 
